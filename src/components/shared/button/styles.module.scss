@@ -1,0 +1,63 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.btn_wrapper {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+
+.btn {
+  @include simple-btn();
+
+  color: $black;
+
+  &__rounded {
+    border-radius: $border-radius;
+  }
+
+  &.black {
+    @include btn-color($black);
+
+    @media (hover) {
+      &:hover {
+        background-color: rgba(#ffffff, 0.25);
+        border: 1px solid $blue;
+        color: $blue;
+      }
+    }
+    transition: all 0.4s;
+
+    border: 1px solid $gray;
+    color: $gray;
+  }
+
+  &.blue {
+    @include btn-color($blue);
+
+    @media (hover) {
+      &:hover {
+        border: 1px solid $white;
+      }
+    }
+
+    transition: all 0.4s;
+    color: $white;
+  }
+}
+
+.btn:disabled {
+  @include btn-color($gray);
+
+  @media (hover) {
+    &:hover {
+      background-color: rgba(#ffffff, 0.25);
+      border: 1px solid $blue;
+      color: $blue;
+    }
+  }
+  transition: all 0.4s;
+  cursor: not-allowed;
+
+  border: 1px solid $white;
+  color: $white;
+}

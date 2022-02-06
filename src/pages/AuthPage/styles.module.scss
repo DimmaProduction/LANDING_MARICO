@@ -1,0 +1,157 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(22, 22, 22);
+  background: radial-gradient(
+    circle,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: $white;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+}
+
+.input {
+  width: 20vw;
+  height: 3rem;
+
+  @media (hover) {
+    &:hover {
+      background-color: rgba(#ffffff, 0.25);
+      border: 1px solid $blue;
+      color: $blue;
+    }
+  }
+  transition: all 0.4s;
+
+  //   border-radius: $border-radius-min;
+  border-radius: 0.75rem;
+  border: 1px solid $gray;
+
+  color: $gray;
+  background-color: $black;
+}
+
+.btn {
+  font-size: 20px;
+  line-height: 30px;
+
+  &_wrap {
+    width: 8.5rem;
+    height: 3.5rem;
+
+    margin-top: 2rem;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.form {
+  &__wrap {
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1.5rem;
+  }
+
+  &__group {
+    position: relative;
+    padding: 0.75rem 0 0;
+    margin-top: 2rem;
+  }
+
+  &__field {
+    font-size: 1.3rem;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 2px solid $gray;
+    outline: 0;
+    padding: 7px 0;
+    transition: border-color 0.2s;
+
+    color: $white;
+    background: transparent;
+
+    &::placeholder {
+      color: transparent;
+    }
+
+    &:placeholder-shown ~ .form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 1.25rem;
+    }
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: $gray;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: $pink;
+  }
+
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(90deg, $pink 1.9%, $yellow 97.1%);
+
+  border-image-slice: 1;
+}
+
+/* reset input */
+.form__field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+
+.redirect {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 1rem;
+
+  &__link {
+    color: $blue;
+  }
+}

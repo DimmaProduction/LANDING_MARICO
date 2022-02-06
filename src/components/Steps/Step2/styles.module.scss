@@ -1,0 +1,81 @@
+@import "../../../styles/variables";
+
+.block {
+  width: 50%;
+  box-sizing: border-box;
+
+  background-color: $gray-75;
+
+  &_wrap {
+    display: flex;
+    gap: 1.5rem;
+
+    max-width: 100%;
+    padding: 3.125rem 5.875rem;
+
+    color: $white;
+  }
+}
+
+.text {
+  &_title {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+  }
+
+  &_link {
+    font-size: 30px;
+    line-height: 45px;
+
+    padding-top: 2.125rem;
+    padding-bottom: 1.5rem;
+  }
+
+  &_left {
+    text-align: left;
+    padding-left: 2.75rem;
+  }
+
+  &_gray {
+    color: $gray;
+  }
+  &_white {
+    color: $white;
+  }
+  &_green {
+    color: $green;
+  }
+}
+
+.btn {
+  font-size: 20px;
+  line-height: 30px;
+
+  &_block {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  &_wrap {
+    width: 12.875rem;
+    height: 4rem;
+  }
+
+  &_container {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+}
+
+.img {
+  &_wrap {
+    display: flex;
+    justify-content: end;
+
+    width: 100%;
+    overflow: hidden;
+  }
+}

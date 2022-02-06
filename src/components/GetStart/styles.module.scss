@@ -1,0 +1,65 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  color: $white;
+  padding: 11.5rem 0;
+}
+
+.text {
+  &_text {
+    font-size: 43px;
+    line-height: 64px;
+
+    padding-bottom: 1rem;
+  }
+
+  &_title {
+    font-size: 100px;
+    line-height: 150px;
+
+    text-align: left;
+  }
+
+  &_under {
+    font-size: 38px;
+    line-height: 57px;
+    color: $gray;
+
+    padding-top: 1.625rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6875rem;
+  }
+
+  &_bold {
+    font-weight: bold;
+    color: $white;
+  }
+
+  &_blue {
+    color: $blue;
+  }
+}
+
+.btn {
+  font-size: 20px;
+  line-height: 30px;
+
+  &_wrap {
+    width: 29.5rem;
+    height: 6.375rem;
+  }
+}
+
+.logo {
+  width: 10.25rem;
+}

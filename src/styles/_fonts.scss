@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Black.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-Black.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-black-webfont.woff2?#iefix") format("woff2"),
+    url("/fonts/poppins-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Bold.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-Bold.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-bold-webfont.woff2?#iefix") format("woff2"),
+    url("/fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-ExtraBold.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-ExtraBold.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-extrabold-webfont.woff2?#iefix") format("woff2"),
+    url("/fonts/poppins-extrabold-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-SemiBold.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-semibold-webfont.woff2?#iefix") format("woff2"),
+    url("/fonts/poppins-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-Regular.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-regular-webfont.woff2?#iefix") format("woff2"),
+    url("/fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Light.ttf"); /* IE9 Compat Modes */
+  src: local(""), url("/fonts/Poppins-Light.ttf?#iefix") format("truetype"),
+    url("/fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("/fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

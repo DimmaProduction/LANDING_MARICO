@@ -1,0 +1,115 @@
+@import "../../../styles/variables";
+
+.container {
+  display: flex;
+  width: 100%;
+
+  color: $white;
+  padding-top: 11.5rem;
+}
+
+.block {
+  &_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 11.5rem;
+    width: 50%;
+  }
+
+  &_photos {
+    width: 50%;
+    position: relative;
+
+    &_square {
+      position: absolute;
+      z-index: 1;
+
+      top: 65%;
+      left: 45%;
+
+      width: 30vh;
+      height: 30vh;
+
+      background-color: $gray-25;
+    }
+
+    &_img {
+      position: absolute;
+      right: 0;
+
+      right: 0;
+      z-index: 100;
+    }
+  }
+}
+
+.text {
+  &_epilog {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+
+    padding-bottom: 5rem;
+  }
+
+  &_title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    padding-bottom: 5rem;
+
+    text-align: left;
+  }
+
+  &_blue {
+    color: $blue;
+  }
+
+  &_list {
+    padding: 1.75rem 0 4.125rem;
+
+    &_item {
+      font-size: 23px;
+      line-height: 34px;
+    }
+  }
+}
+
+.btn {
+  font-size: 20px;
+  line-height: 30px;
+
+  &_block {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  &_wrap {
+    width: 12.875rem;
+    height: 4rem;
+  }
+}
+
+ol {
+  counter-reset: orderedlist;
+  text-align: left;
+
+  li::before {
+    counter-increment: orderedlist;
+    content: counter(orderedlist);
+
+    font-family: "Indie Flower";
+    font-size: 18px;
+    line-height: 27px;
+
+    padding: 0.25rem 0.6rem;
+    margin-right: 0.75rem;
+    text-align: center;
+
+    background-color: $gray-50;
+    border-radius: 50%;
+  }
+}

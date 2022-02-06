@@ -1,0 +1,78 @@
+@import "../../../styles/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.875rem 8.75rem;
+  color: $white;
+}
+
+.pages_list {
+  display: flex;
+  gap: 2.375rem;
+
+  &_item {
+    color: $gray;
+    transition: all 0.2s;
+
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+
+    &:hover {
+      color: $blue;
+      transition: all 0.2s;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  &_img {
+    width: 45px;
+    height: 45px;
+  }
+
+  &_text {
+    font-weight: 800;
+    font-size: 2.3125rem;
+    line-height: 56px;
+  }
+}
+
+.buttons {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  &_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 7.5rem;
+    height: 3.5rem;
+  }
+
+  &_href {
+    text-decoration: none;
+    color: $gray;
+  }
+
+  &_two {
+    color: $white;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

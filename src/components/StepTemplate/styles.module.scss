@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 11.875rem;
+}
+
+.step {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: $blue;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+
+  color: $white;
+}
+
+.desc {
+  font-size: 30px;
+  line-height: 45px;
+
+  color: $gray;
+
+  white-space: pre;
+  text-align: center;
+}
+
+.btn {
+  &_text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &_wrap {
+    padding-top: 2.125rem;
+
+    width: 19.5rem;
+    height: 4.75rem;
+  }
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  width: 100%;
+}

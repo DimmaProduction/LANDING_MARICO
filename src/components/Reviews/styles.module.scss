@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+
+.text {
+  &_title {
+    color: $white;
+
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+
+    padding-bottom: 3.25rem;
+  }
+
+  &_onImage {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $white;
+
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+
+    z-index: 10;
+  }
+}
+
+.img {
+  max-width: 95vw;
+}
+
+.audience {
+  position: relative;
+  margin-top: 11.75rem;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

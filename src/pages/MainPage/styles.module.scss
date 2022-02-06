@@ -1,0 +1,131 @@
+@import "../../styles/variables";
+
+.container {
+  text-align: center;
+  background-color: $black;
+  min-height: 100vh;
+}
+
+.main {
+  &_title {
+    color: $white;
+    padding: 5.125rem 0;
+    box-sizing: border-box;
+
+    & > p {
+      font-weight: 700;
+      font-size: 112px;
+
+      margin: 0;
+    }
+
+    &_gradient {
+      background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+      background-clip: text;
+
+      color: transparent;
+      transition: filter 2s;
+      filter: grayscale(100%);
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+
+  &_demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+
+    width: 100%;
+
+    color: $white;
+
+    &_title {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    &_text {
+      font-size: 25px;
+      line-height: 37px;
+
+      color: #707070;
+    }
+
+    &_numbers {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    &_bottom {
+      display: flex;
+      gap: 0.625rem;
+    }
+
+    &_btn {
+      display: flex;
+      gap: 1.625rem;
+
+      padding-top: 1.875rem;
+
+      &_text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      &_wrap {
+        width: 19.5rem;
+        height: 4.75rem;
+      }
+    }
+  }
+
+  &_benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+
+    color: $white;
+    padding-top: 11.75rem;
+
+    &_title {
+      font-weight: 600;
+      font-size: 75px;
+      line-height: 112px;
+    }
+
+    &_table {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+
+      &_title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 52px;
+      }
+
+      &_desc {
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px;
+
+        color: $gray;
+      }
+    }
+  }
+}
