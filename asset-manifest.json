@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/LANDING_MARICO/static/css/main.3839d4c9.css",
+    "main.js": "/LANDING_MARICO/static/js/main.a8881dee.js",
+    "static/media/bg_peoples.png": "/LANDING_MARICO/static/media/bg_peoples.5fbaa414ab3ec7122875.png",
+    "static/media/reviews.png": "/LANDING_MARICO/static/media/reviews.ff0dcb1146a8bf0d549d.png",
+    "static/media/img_2.png": "/LANDING_MARICO/static/media/img_2.f64fa845de6c44ec4998.png",
+    "static/media/img_1.png": "/LANDING_MARICO/static/media/img_1.155ea87fb1ec7fa701be.png",
+    "static/media/Poppins-Light.ttf": "/LANDING_MARICO/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/LANDING_MARICO/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/LANDING_MARICO/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/LANDING_MARICO/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/LANDING_MARICO/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/Poppins-Black.ttf": "/LANDING_MARICO/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/poppins-semibold-webfont.woff": "/LANDING_MARICO/static/media/poppins-semibold-webfont.ede0129fe207201b46f3.woff",
+    "static/media/poppins-bold-webfont.woff": "/LANDING_MARICO/static/media/poppins-bold-webfont.fbb666964a801b6ac011.woff",
+    "static/media/poppins-light-webfont.woff": "/LANDING_MARICO/static/media/poppins-light-webfont.59ac00ac7c96fba524e7.woff",
+    "static/media/poppins-extrabold-webfont.woff": "/LANDING_MARICO/static/media/poppins-extrabold-webfont.76965e2e56fc4ee5cabd.woff",
+    "static/media/poppins-regular-webfont.woff": "/LANDING_MARICO/static/media/poppins-regular-webfont.3525d9ffa6423a8fc407.woff",
+    "static/media/poppins-black-webfont.woff": "/LANDING_MARICO/static/media/poppins-black-webfont.2ddf25d0f7a2293a2d36.woff",
+    "static/media/poppins-semibold-webfont.woff2": "/LANDING_MARICO/static/media/poppins-semibold-webfont.6f16a2931b39cafdb43c.woff2",
+    "static/media/poppins-light-webfont.woff2": "/LANDING_MARICO/static/media/poppins-light-webfont.229ad08c62c19dbc0ccf.woff2",
+    "static/media/poppins-bold-webfont.woff2": "/LANDING_MARICO/static/media/poppins-bold-webfont.b44cc6f43121f674d3af.woff2",
+    "static/media/poppins-extrabold-webfont.woff2": "/LANDING_MARICO/static/media/poppins-extrabold-webfont.6ea994a39a89b665388f.woff2",
+    "static/media/poppins-regular-webfont.woff2": "/LANDING_MARICO/static/media/poppins-regular-webfont.bb1bb9982d1a60846181.woff2",
+    "static/media/poppins-black-webfont.woff2": "/LANDING_MARICO/static/media/poppins-black-webfont.367cb24952464956e541.woff2",
+    "static/media/mobile.svg": "/LANDING_MARICO/static/media/mobile.a06ebc36c28b6662edbeb24d6303a41f.svg",
+    "static/media/green_dot.svg": "/LANDING_MARICO/static/media/green_dot.170ced52d63e8457f205acac0a4334d7.svg",
+    "index.html": "/LANDING_MARICO/index.html",
+    "static/media/logo.svg": "/LANDING_MARICO/static/media/logo.499f648549c950ee8939fe0d495c0fe9.svg",
+    "main.3839d4c9.css.map": "/LANDING_MARICO/static/css/main.3839d4c9.css.map",
+    "main.a8881dee.js.map": "/LANDING_MARICO/static/js/main.a8881dee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3839d4c9.css",
+    "static/js/main.a8881dee.js"
+  ]
+}
